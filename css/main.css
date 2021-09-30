@@ -32,8 +32,18 @@ ul {
   color: #3783a3"
 }
 
+h2 {
+  padding: 0;
+}
+
 @media only screen and (min-width: 500px) {
 
+}
+
+article a {
+  display: block;
+  border-style: solid;
+  border-width: .2rem
 }
 
 - '"Noto Sans JP"'
