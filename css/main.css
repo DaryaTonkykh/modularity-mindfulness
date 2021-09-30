@@ -28,8 +28,19 @@ img {
 
 ul {
   display: flex;
+  align-items: center;
+  color: #3783a3"
 }
 
 @media only screen and (min-width: 500px) {
 
 }
+
+- '"Noto Sans JP"'
+- "#e2e2e2"
+- "#3783a3"
+- "display: grid"
+- "grid-template-columns"
+- "display: flex"
+- "justify-content"
+- "align-items"
