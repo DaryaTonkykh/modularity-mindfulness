@@ -36,11 +36,15 @@ ul {
   margin: 0;
 }
 
-h1 {
+section {
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr, 1fr, 1fr;
+  gap: 1rem;
 }
 
 h2 {
-  padding: 0;
+  display: grid;
+  padding: ;
 }
 
 @media only screen and (min-width: 500px) {
