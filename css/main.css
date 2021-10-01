@@ -21,6 +21,15 @@ body {
   margin: 0;
 }
 
+.into i {
+  font-size: 2rem;
+}
+
+[lang="ja"] {
+  font-family: "Noto Sans JP", sans-serif;
+  font-style: normal;
+}
+
 img {
   display: block;
   width: 100%;
@@ -36,11 +45,19 @@ ul {
   margin: 0;
 }
 
+li {
+  list-style: none;
+}
+
 section {
+  margin-top: 1.5rem;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr, 1fr, 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
   gap: 1rem;
+  margin-bottom: 1.5rem;
+  padding-left: .5rem;
+  padding-right: .5rem;
 }
 
 h2 {
